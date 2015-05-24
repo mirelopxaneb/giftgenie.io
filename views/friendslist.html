@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="No more gift brainstorming! What your friends want, quick and easy.">
+
+    <title>GiftGenie</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    
+    <script src="../index.js"></script>
+    
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+  <style type="text/css">form {
+                width:500px;
+                margin:50px auto;
+}
+.search {
+                /*padding:8px 15px;*/
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+                margin-top: 100px;
+                padding: 100px;
+}
+.button {
+                position:relative;
+                /*padding:6px 15px;*/
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+                margin-top: 100px;
+                padding: 100px;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}</style>
+</head>
+<body onLoad="loadFriends()">
+
+    <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">GiftGenie</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">About Us</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Login with Facebook</a></li>
+        </ul>
+    </div>
+</div>
+<div>
+    
+<form>
+                                <input type="text" placeholder="Search Friends" required>
+                                <input type="button" value="Search">
+</form>
+</div>
+    <div class="friends">
+        <div class="person" id="1016542094">
+            <img id="1016542094_img" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p50x50/1546259_10204395309655605_2363550092813946338_n.jpg?oh=ddee2155d4043ab69e01b7bc3e2ccc9c&oe=55F935E0&__gda__=1439137658_cdccfa5fd54aa7524065ff97fa7d69ee">
+            <a href="http://www.facebook.com/1016542094" id="1016542094_link">Shaloo Munjal Verma</a>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    
+    <script src="myApp.js"></script>
+</body>
+</html>
